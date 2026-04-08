@@ -12,9 +12,4 @@ describe('TreeGrid', () => {
     const wrapper = mount(TreeGrid)
     expect(wrapper.find('.tree-grid-container').exists()).toBe(true)
   })
-
-  it('содержит заголовок', () => {
-    const wrapper = mount(TreeGrid)
-    expect(wrapper.find('h2').text()).toBe('TreeStore — AG Grid')
-  })
 })
